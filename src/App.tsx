@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { render } from "react-dom";
+import { render } from "react-dom";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 import { Router, Link } from "@reach/router";
@@ -23,5 +23,5 @@ const App = () => {
     </React.StrictMode>
   );
 };
-// render(<App />, document.getElementById("root"));
-export default App;
+render(<App />, document.getElementById("root"));
+// export default App;
